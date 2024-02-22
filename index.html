@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="images/Logo.png" alt="logo-alura" id="Logo">
+    <div>
+        <textarea name="input-container" id="myInput" placeholder="Ingrese texto aquí" cols="50" rows="19" wrap="hard"></textarea>
+    </div>
+    
+    <div class="alert">
+        <span class="exclamacion">!</span>
+        <span>Solo letras minúsculas y sin acentos</span>
+    </div>
+    <div class="button">
+        <button class="button-encriptar" onclick="encriptar()">Encriptar</button>
+        <button class="button-desencriptar" onclick="desencriptar()">Desencriptar</button>
+    </div>
+    <div class="message-container" id="message-container">
+        <img src="images/Muñeco.png" alt="Muñeco" id="muñeco">
+        <div class="text-alert" id="text-alert">
+            <h2 id="ninguno-alert">Ningun mensaje fue encontrado</h2>
+            <p id="texto-mostrado">ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
