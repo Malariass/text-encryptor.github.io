@@ -145,8 +145,6 @@ function copiarAlPortapapeles() {
     /* Elimina el textarea temporal */
     document.body.removeChild(tempTextArea);
 
-    /* Alerta al usuario que el texto ha sido copiado */
-    alert("Texto copiado: " + tempTextArea.value);
 }
 
 
